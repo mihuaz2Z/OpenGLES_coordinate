@@ -1,7 +1,7 @@
 #version 100
 
 uniform mat4 cylinderMvp;
-varying vec3 v_Position;
+attribute vec3 v_Position;
 
 void main()
 {

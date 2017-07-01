@@ -6,5 +6,5 @@ attribute vec3 v_Position;
 void main()
 {
 
-    gl_Position = cylinderMvp * vec4(v_Position.x,v_Position.y,0.0,1.0);
+    gl_Position = cylinderMvp * vec4(v_Position,1.0);
 }

@@ -26,7 +26,6 @@
         
         UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(reset)];
         tap.numberOfTapsRequired = 2;
-//        tap.numberOfTouchesRequired = 2;
         [self addGestureRecognizer:tap];
         
         [self _glSetup];
@@ -41,14 +40,6 @@
     self = [super initWithFrame:frame];
     if (self) {
         
-//        UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(reset)];
-//        tap.numberOfTapsRequired = 2;
-//        //        tap.numberOfTouchesRequired = 2;
-//        [self addGestureRecognizer:tap];
-//        
-//        
-//        UIPinchGestureRecognizer * pinch = [[UIPinchGestureRecognizer alloc] initWithTarget:self action:@selector(handlePinches:)];
-//        [self addGestureRecognizer:pinch];
         
         [self _glSetup];
 
